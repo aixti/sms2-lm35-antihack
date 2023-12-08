@@ -1,0 +1,140 @@
+
+ROM used: 7103 (87%)
+          7738 (94%) including unused fragments
+
+          6 Average locations per line
+          14 Average locations per statement
+
+RAM used: 164 (45%) at main() level
+          188 (51%) worst case
+
+Stack used: 6 worst case (out of 7 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  387   363  70  sms_lm35_lcd.c
+  312     0   0  C:\PROGRA~1\PICC\devices\16f877a.h
+  417   126  24  C:\PROGRA~1\PICC\drivers\string.h
+   28     0   0  C:\PROGRA~1\PICC\drivers\stddef.h
+   28     0   0  C:\PROGRA~1\PICC\drivers\ctype.h
+   88    32   6  lcd_lib_4bit.c
+----- -----
+ 1260   521 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+1     72   1   5   231  6.6  strcmp
+1     36   1   5   129  4.6  strlen
+0     21   0   1             @delay_ms1
+0     68   1   0   245  1.4  LCD_Init
+0     20   0   1    65  1.2  LCD_PutChar
+0     19   0   1    90  1.4  LCD_PutCmd
+0     25   0   0    72  1.2  LCD_PulseEnable
+0     67   1   1   174  2.3  LCD_SetData
+0     21   0   1             @delay_ms2
+0     28   0   2   143  3.4  ngat
+3   1594  22   6  4038  6.0  MAIN
+0     19   0   0             @const195
+0     19   0   0             @const196
+0     19   0   0             @const197
+0     68   1   6             @DIVS1616
+0     43   1   2             @SITOF
+0    123   2  13             @MULFF
+1    332   5  16             @ADDFF
+0     37   1   4             @SFTOI
+0     21   0   0             @const214
+0     25   0   3             @DIV88
+1     83   1   2             @PRINTF_U_147
+0     21   0   0             @const225
+0     15   0   0             @const226
+0     14   0   0             @const227
+0     14   0   0             @const228
+0     21   0   0             @const229
+0     19   0   0             @const230
+0     20   0   0             @const231
+0      8   0   0             @const232
+0     28   0   0             @const233
+0     30   0   0             @const234
+1     80   1   2             @PRINTF_U_9600_62_63
+0      9   0   0             @const238
+0     23   0   0             @const239
+0     20   0   0             @const240
+0     22   0   0             @const244
+0    284   4   1   475  1.9  gsm_config
+0      9   0   0             @const245
+0     11   0   0             @const249
+0     16   0   0             @const250
+0     16   0   0             @const251
+0     30   0   2   310  3.7  xoa
+1    118   2   3   414  6.1  xuly_sms
+2   2044  29   2  5343  3.5  xuly
+0      8   0   0             @const252
+0     17   0   0             @const253
+0     18   0   0             @const254
+0     16   0   0             @const256
+0     13   0   0             @const257
+0     18   0   0             @const258
+0     17   0   0             @const261
+0      8   0   0             @const262
+0     17   0   0             @const263
+0     16   0   0             @const266
+0      9   0   0             @const267
+0     18   0   0             @const268
+0     17   0   0             @const271
+0      8   0   0             @const272
+0     17   0   0             @const273
+0     16   0   0             @const276
+0      9   0   0             @const277
+0     18   0   0             @const278
+0     17   0   0             @const281
+0      8   0   0             @const282
+0     17   0   0             @const283
+0     16   0   0             @const286
+0      9   0   0             @const287
+0     18   0   0             @const288
+0     17   0   0             @const291
+0     10   0   0             @const292
+0     18   0   0             @const293
+0     21   0   0             @const296
+0     11   0   0             @const297
+0     20   0   0             @const298
+0     22   0   0             @const301
+1    495   7   2  1055  2.9  trang_thai
+0     11   0   0             @const302
+0     18   0   0             @const303
+0     20   0   0             @const306
+0     21   0   0             @const307
+0     20   0   0             @const308
+0     21   0   0             @const309
+0     20   0   0             @const310
+0     21   0   0             @const311
+0     20   0   0             @const312
+0     21   0   0             @const313
+1    215   3   2   338  2.7  nhiet_do
+0     12   0   0             @const314
+0     20   0   0             @const315
+0     19   0   0             @const316
+
+Program metrics:
+    Functions               15
+    Statements              521
+    Comments                277
+    Volume (V)              18642
+    Difficilty (D)          46.8
+    Effort to implement (E) 871877
+    Time to implement (T)   13 hours, 27 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   34
+    Maintainability (MI)    94
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00034    49  0  
+00035-007FF  1981  14  
+00800-00FFF  1431  617  
+01000-017FF  2044  4  
+01800-01FFF  1594  454  
+
+
+

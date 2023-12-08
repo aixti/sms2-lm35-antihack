@@ -1,0 +1,4 @@
+>>> Warning 203 "sms_lm35_lcd.c" Line 62(1,1): Condition always TRUE
+>>> Warning 202 "sms_lm35_lcd.c" Line 21(12,13): Variable never used:   j
+      Memory usage:   ROM=87%      RAM=45% - 51%
+      0 Errors,  2 Warnings.

@@ -1,0 +1,39 @@
+[PROJECT]
+Target=sms_lm35_lcd.HEX
+Development_Mode=2
+Processor=0x877A
+ToolSuite=CCS
+Processor_Text=PIC16F877A
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=D:\DATN\sim 300_dk_nhdo_baodong\CODE va MO PHONG\sms_lm35_lcd.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[sms_lm35_lcd.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=SMS_LM~1.C
+
+[Windows]
+0=0000 SMS_LM~1.C 0 0 796 451 3 0
+
+[Opened Files]
+1=D:\DATN\sim 300_dk_nhdo_baodong\CODE va MO PHONG\sms_lm35_lcd.c
+2=
+[Units]
+Count=1
+1=sms_lm35_lcd.c (main)
